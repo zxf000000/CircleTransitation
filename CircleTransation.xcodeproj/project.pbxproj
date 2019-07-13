@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B75D210922D841A900EE9372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75D210822D841A900EE9372 /* AppDelegate.swift */; };
+		B75D210B22D841A900EE9372 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75D210A22D841A900EE9372 /* ViewController.swift */; };
+		B75D210E22D841A900EE9372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75D210C22D841A900EE9372 /* Main.storyboard */; };
+		B75D211022D841AD00EE9372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75D210F22D841AD00EE9372 /* Assets.xcassets */; };
+		B75D211322D841AD00EE9372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75D211122D841AD00EE9372 /* LaunchScreen.storyboard */; };
+		B75D211E22D841AD00EE9372 /* CircleTransationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75D211D22D841AD00EE9372 /* CircleTransationTests.swift */; };
+		B75D212922D841AD00EE9372 /* CircleTransationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75D212822D841AD00EE9372 /* CircleTransationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B75D211A22D841AD00EE9372 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B75D20FD22D841A900EE9372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B75D210422D841A900EE9372;
+			remoteInfo = CircleTransation;
+		};
+		B75D212522D841AD00EE9372 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B75D20FD22D841A900EE9372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B75D210422D841A900EE9372;
+			remoteInfo = CircleTransation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B75D210522D841A900EE9372 /* CircleTransation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleTransation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75D210822D841A900EE9372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B75D210A22D841A900EE9372 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B75D210D22D841A900EE9372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B75D210F22D841AD00EE9372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B75D211222D841AD00EE9372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B75D211422D841AD00EE9372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B75D211922D841AD00EE9372 /* CircleTransationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleTransationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75D211D22D841AD00EE9372 /* CircleTransationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTransationTests.swift; sourceTree = "<group>"; };
+		B75D211F22D841AD00EE9372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B75D212422D841AD00EE9372 /* CircleTransationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleTransationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75D212822D841AD00EE9372 /* CircleTransationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTransationUITests.swift; sourceTree = "<group>"; };
+		B75D212A22D841AD00EE9372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B75D210222D841A900EE9372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75D211622D841AD00EE9372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75D212122D841AD00EE9372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B75D20FC22D841A900EE9372 = {
+			isa = PBXGroup;
+			children = (
+				B75D210722D841A900EE9372 /* CircleTransation */,
+				B75D211C22D841AD00EE9372 /* CircleTransationTests */,
+				B75D212722D841AD00EE9372 /* CircleTransationUITests */,
+				B75D210622D841A900EE9372 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B75D210622D841A900EE9372 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B75D210522D841A900EE9372 /* CircleTransation.app */,
+				B75D211922D841AD00EE9372 /* CircleTransationTests.xctest */,
+				B75D212422D841AD00EE9372 /* CircleTransationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B75D210722D841A900EE9372 /* CircleTransation */ = {
+			isa = PBXGroup;
+			children = (
+				B75D210822D841A900EE9372 /* AppDelegate.swift */,
+				B75D210A22D841A900EE9372 /* ViewController.swift */,
+				B75D210C22D841A900EE9372 /* Main.storyboard */,
+				B75D210F22D841AD00EE9372 /* Assets.xcassets */,
+				B75D211122D841AD00EE9372 /* LaunchScreen.storyboard */,
+				B75D211422D841AD00EE9372 /* Info.plist */,
+			);
+			path = CircleTransation;
+			sourceTree = "<group>";
+		};
+		B75D211C22D841AD00EE9372 /* CircleTransationTests */ = {
+			isa = PBXGroup;
+			children = (
+				B75D211D22D841AD00EE9372 /* CircleTransationTests.swift */,
+				B75D211F22D841AD00EE9372 /* Info.plist */,
+			);
+			path = CircleTransationTests;
+			sourceTree = "<group>";
+		};
+		B75D212722D841AD00EE9372 /* CircleTransationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B75D212822D841AD00EE9372 /* CircleTransationUITests.swift */,
+				B75D212A22D841AD00EE9372 /* Info.plist */,
+			);
+			path = CircleTransationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B75D210422D841A900EE9372 /* CircleTransation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B75D212D22D841AD00EE9372 /* Build configuration list for PBXNativeTarget "CircleTransation" */;
+			buildPhases = (
+				B75D210122D841A900EE9372 /* Sources */,
+				B75D210222D841A900EE9372 /* Frameworks */,
+				B75D210322D841A900EE9372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleTransation;
+			productName = CircleTransation;
+			productReference = B75D210522D841A900EE9372 /* CircleTransation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B75D211822D841AD00EE9372 /* CircleTransationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B75D213022D841AD00EE9372 /* Build configuration list for PBXNativeTarget "CircleTransationTests" */;
+			buildPhases = (
+				B75D211522D841AD00EE9372 /* Sources */,
+				B75D211622D841AD00EE9372 /* Frameworks */,
+				B75D211722D841AD00EE9372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B75D211B22D841AD00EE9372 /* PBXTargetDependency */,
+			);
+			name = CircleTransationTests;
+			productName = CircleTransationTests;
+			productReference = B75D211922D841AD00EE9372 /* CircleTransationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B75D212322D841AD00EE9372 /* CircleTransationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B75D213322D841AD00EE9372 /* Build configuration list for PBXNativeTarget "CircleTransationUITests" */;
+			buildPhases = (
+				B75D212022D841AD00EE9372 /* Sources */,
+				B75D212122D841AD00EE9372 /* Frameworks */,
+				B75D212222D841AD00EE9372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B75D212622D841AD00EE9372 /* PBXTargetDependency */,
+			);
+			name = CircleTransationUITests;
+			productName = CircleTransationUITests;
+			productReference = B75D212422D841AD00EE9372 /* CircleTransationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B75D20FD22D841A900EE9372 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = mr.zhou;
+				TargetAttributes = {
+					B75D210422D841A900EE9372 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					B75D211822D841AD00EE9372 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = B75D210422D841A900EE9372;
+					};
+					B75D212322D841AD00EE9372 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = B75D210422D841A900EE9372;
+					};
+				};
+			};
+			buildConfigurationList = B75D210022D841A900EE9372 /* Build configuration list for PBXProject "CircleTransation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B75D20FC22D841A900EE9372;
+			productRefGroup = B75D210622D841A900EE9372 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B75D210422D841A900EE9372 /* CircleTransation */,
+				B75D211822D841AD00EE9372 /* CircleTransationTests */,
+				B75D212322D841AD00EE9372 /* CircleTransationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B75D210322D841A900EE9372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75D211322D841AD00EE9372 /* LaunchScreen.storyboard in Resources */,
+				B75D211022D841AD00EE9372 /* Assets.xcassets in Resources */,
+				B75D210E22D841A900EE9372 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75D211722D841AD00EE9372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75D212222D841AD00EE9372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B75D210122D841A900EE9372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75D210B22D841A900EE9372 /* ViewController.swift in Sources */,
+				B75D210922D841A900EE9372 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75D211522D841AD00EE9372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75D211E22D841AD00EE9372 /* CircleTransationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75D212022D841AD00EE9372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75D212922D841AD00EE9372 /* CircleTransationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B75D211B22D841AD00EE9372 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B75D210422D841A900EE9372 /* CircleTransation */;
+			targetProxy = B75D211A22D841AD00EE9372 /* PBXContainerItemProxy */;
+		};
+		B75D212622D841AD00EE9372 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B75D210422D841A900EE9372 /* CircleTransation */;
+			targetProxy = B75D212522D841AD00EE9372 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B75D210C22D841A900EE9372 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B75D210D22D841A900EE9372 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B75D211122D841AD00EE9372 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B75D211222D841AD00EE9372 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B75D212B22D841AD00EE9372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B75D212C22D841AD00EE9372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B75D212E22D841AD00EE9372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Y58RU5LV6;
+				INFOPLIST_FILE = CircleTransation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.zxf.CircleTransation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B75D212F22D841AD00EE9372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Y58RU5LV6;
+				INFOPLIST_FILE = CircleTransation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.zxf.CircleTransation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B75D213122D841AD00EE9372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Y58RU5LV6;
+				INFOPLIST_FILE = CircleTransationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.zxf.CircleTransationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleTransation.app/CircleTransation";
+			};
+			name = Debug;
+		};
+		B75D213222D841AD00EE9372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Y58RU5LV6;
+				INFOPLIST_FILE = CircleTransationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.zxf.CircleTransationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleTransation.app/CircleTransation";
+			};
+			name = Release;
+		};
+		B75D213422D841AD00EE9372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Y58RU5LV6;
+				INFOPLIST_FILE = CircleTransationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.zxf.CircleTransationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CircleTransation;
+			};
+			name = Debug;
+		};
+		B75D213522D841AD00EE9372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Y58RU5LV6;
+				INFOPLIST_FILE = CircleTransationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.zxf.CircleTransationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CircleTransation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B75D210022D841A900EE9372 /* Build configuration list for PBXProject "CircleTransation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75D212B22D841AD00EE9372 /* Debug */,
+				B75D212C22D841AD00EE9372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B75D212D22D841AD00EE9372 /* Build configuration list for PBXNativeTarget "CircleTransation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75D212E22D841AD00EE9372 /* Debug */,
+				B75D212F22D841AD00EE9372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B75D213022D841AD00EE9372 /* Build configuration list for PBXNativeTarget "CircleTransationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75D213122D841AD00EE9372 /* Debug */,
+				B75D213222D841AD00EE9372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B75D213322D841AD00EE9372 /* Build configuration list for PBXNativeTarget "CircleTransationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75D213422D841AD00EE9372 /* Debug */,
+				B75D213522D841AD00EE9372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B75D20FD22D841A900EE9372 /* Project object */;
+}
